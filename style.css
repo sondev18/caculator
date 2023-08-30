@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #29262c;
+  margin: 0 auto;
+  display: flex;
+  height: 100%;
+  font-family: "Dosis", sans-serif;
+}
+#calculator {
+  max-width: 400px;
+  min-height: 400px;
+  background-color: #967c6d;
+  margin: 4rem auto;
+  border-radius: 1rem;
+}
+#display {
+  background-color: #382325;
+  height: 3rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 5px;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 0.5rem;
+}
+.row {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 1rem 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.row .button-wrapper {
+  margin: 0 10px;
+}
+.row .button-wrapper .item {
+  height: 40px;
+  width: 60px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(255, 65, 65);
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 1px 1px 1px 1px rgb(241, 212, 188);
+}
+
+.button-wrapper .item17 {
+  background: #923532;
+}
+.row .button-wrapper .item17 {
+  color: white;
+}
+.button-wrapper .item18 {
+  background: #923532;
+}
+.row .button-wrapper .item18 {
+  color: white;
+}
